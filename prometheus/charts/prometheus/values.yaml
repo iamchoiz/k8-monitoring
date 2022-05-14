@@ -483,7 +483,7 @@ nodeExporter:
 
   ## If true, node-exporter pods mounts host / at /host/root
   ##
-  hostRootfs: false
+  hostRootfs: true
 
   ## node-exporter container name
   ##
@@ -622,7 +622,8 @@ nodeExporter:
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
     servicePort: 80
-    type: ClusterIP
+    nodePort: 31010
+    type: NodePort
 
 server:
   ## Prometheus server container name
