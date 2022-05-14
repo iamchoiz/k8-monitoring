@@ -1,0 +1,7 @@
+repoURL: 'https://github.com/DACHANCHOI/k8-cicd-argocd.git'
+apps:
+  - name: prometheus
+    project: dev
+    namespace: monitoring
+    source:
+      path: prometheus/charts/prometheus
