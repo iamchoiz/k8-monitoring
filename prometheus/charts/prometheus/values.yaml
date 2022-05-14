@@ -622,7 +622,7 @@ nodeExporter:
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
     servicePort: 80
-    nodePort: 31000
+    nodePort: 31111
     type: NodePort
 
 server:
