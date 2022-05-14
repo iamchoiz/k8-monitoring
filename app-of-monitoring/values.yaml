@@ -5,3 +5,11 @@ apps:
     namespace: monitoring
     source:
       path: prometheus/charts/prometheus
+  - name: grafana
+    project: monitoring
+    namespace: monitoring
+    source:
+      path: grafana
+      customValues: true
+      values: 
+        - values-local.yaml
