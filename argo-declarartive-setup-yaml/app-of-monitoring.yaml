@@ -7,9 +7,9 @@ spec:
   destination:
     namespace: default
     server: 'https://kubernetes.default.svc'
-  project: dev
+  project: monitoring
   source:
-    repoURL: https://github.com/DACHANCHOI/k8-monitoring.git
+    repoURL: https://github.com/iamchoiz/k8-monitoring.git
     targetRevision: HEAD
     path: app-of-monitoring
     helm:

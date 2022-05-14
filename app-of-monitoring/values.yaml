@@ -1,7 +1,7 @@
-repoURL: 'https://github.com/DACHANCHOI/k8-cicd-argocd.git'
+repoURL: 'https://github.com/iamchoiz/k8-monitoring.git'
 apps:
   - name: prometheus
-    project: dev
+    project: monitoring
     namespace: monitoring
     source:
       path: prometheus/charts/prometheus
