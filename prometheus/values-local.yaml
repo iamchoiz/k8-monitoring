@@ -5,22 +5,17 @@ kubeStateMetrics:
   enabled: true
 
 nodeExporter:
-  enabled: true
+  enabled: false
   hostRootfs: false
 
 server:
   enabled: true
-  persistentVolume:
-    enabled: false
-
   service:
     nodePort: 31090
     type: NodePort
 
 alertmanager:
   enabled: true
-  persistentVolume:
-    enabled: false
   service:
     nodePort: 32082
     type: NodePort
