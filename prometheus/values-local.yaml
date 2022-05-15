@@ -5,7 +5,7 @@ kubeStateMetrics:
   enabled: true
 
 nodeExporter:
-  enabled: false
+  enabled: true
   hostRootfs: false
 
 server:

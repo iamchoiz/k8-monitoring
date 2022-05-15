@@ -5,6 +5,9 @@ apps:
     namespace: monitoring
     source:
       path: prometheus
+      customValues: true
+      values:
+        - values-local.yaml
   - name: grafana
     project: monitoring
     namespace: monitoring
