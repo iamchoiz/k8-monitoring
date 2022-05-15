@@ -4,7 +4,7 @@ apps:
     project: monitoring
     namespace: monitoring
     source:
-      path: prometheus/charts/prometheus
+      path: prometheus
   - name: grafana
     project: monitoring
     namespace: monitoring
