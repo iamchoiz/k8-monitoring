@@ -10,14 +10,17 @@ nodeExporter:
 
 server:
   enabled: true
+  persistentVolume:
+    enabled: false
 
   service:
-    nodePort: 32080
+    nodePort: 31090
     type: NodePort
 
 alertmanager:
   enabled: true
-
+  persistentVolume:
+    enabled: false
   service:
     nodePort: 32082
     type: NodePort
