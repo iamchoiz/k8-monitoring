@@ -17,7 +17,7 @@ apps:
       values: 
         - values-local.yaml
   - name: logstash
-    project: logstash
+    project: monitoring
     namespace: monitoring
     source:
       path: logstash
