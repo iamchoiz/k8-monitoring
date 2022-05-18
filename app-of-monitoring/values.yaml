@@ -16,7 +16,7 @@ apps:
       customValues: true
       values: 
         - values-local.yaml
-  - name: grafana
+  - name: logstash
     project: logstash
     namespace: monitoring
     source:
