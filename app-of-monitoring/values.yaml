@@ -16,19 +16,19 @@ apps:
       customValues: true
       values: 
         - values-local.yaml
-  - name: logstash
-    project: monitoring
-    namespace: monitoring
-    source:
-      path: logstash
-      customValues: true
-      values: 
-        - values-local.yaml
-  - name: filebeat
-    project: monitoring
-    namespace: monitoring
-    source:
-      path: filebeat
-      customValues: true
-      values: 
-        - values-local.yaml
+  # - name: logstash
+  #   project: monitoring
+  #   namespace: monitoring
+  #   source:
+  #     path: logstash
+  #     customValues: true
+  #     values: 
+  #       - values-local.yaml
+  # - name: filebeat
+  #   project: monitoring
+  #   namespace: monitoring
+  #   source:
+  #     path: filebeat
+  #     customValues: true
+  #     values: 
+  #       - values-local.yaml
