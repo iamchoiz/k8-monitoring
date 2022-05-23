@@ -1,34 +1,34 @@
 repoURL: 'https://github.com/iamchoiz/k8-monitoring.git'
 apps:
-  - name: prometheus
+  # - name: prometheus
+  #   project: monitoring
+  #   namespace: monitoring
+  #   source:
+  #     path: prometheus
+  #     customValues: true
+  #     values:
+  #       - values-local.yaml
+  # - name: grafana
+  #   project: monitoring
+  #   namespace: monitoring
+  #   source:
+  #     path: grafana
+  #     customValues: true
+  #     values: 
+  #       - values-local.yaml
+  - name: logstash
     project: monitoring
     namespace: monitoring
     source:
-      path: prometheus
-      customValues: true
-      values:
-        - values-local.yaml
-  - name: grafana
-    project: monitoring
-    namespace: monitoring
-    source:
-      path: grafana
+      path: logstash
       customValues: true
       values: 
         - values-local.yaml
-  # - name: logstash
-  #   project: monitoring
-  #   namespace: monitoring
-  #   source:
-  #     path: logstash
-  #     customValues: true
-  #     values: 
-  #       - values-local.yaml
-  # - name: filebeat
-  #   project: monitoring
-  #   namespace: monitoring
-  #   source:
-  #     path: filebeat
-  #     customValues: true
-  #     values: 
-  #       - values-local.yaml
+  - name: filebeat
+    project: monitoring
+    namespace: monitoring
+    source:
+      path: filebeat
+      customValues: true
+      values: 
+        - values-local.yaml
