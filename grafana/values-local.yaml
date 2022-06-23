@@ -21,4 +21,4 @@ datasources:
 
 grafana.ini:
  server:
-    root_url: https://ce7e-221-143-104-50.jp.ngrok.io
+    root_url: https://0f9e-221-143-104-50.jp.ngrok.io
