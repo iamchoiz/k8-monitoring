@@ -19,4 +19,6 @@ datasources:
         access: proxy
         isDefault: true
 
-#grafana.ini:
+grafana.ini:
+ server:
+    root_url: https://ce7e-221-143-104-50.jp.ngrok.io
