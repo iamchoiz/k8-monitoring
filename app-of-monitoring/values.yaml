@@ -8,14 +8,14 @@ apps:
       customValues: true
       values:
         - values-local.yaml
-  - name: grafana
-    project: monitoring
-    namespace: monitoring
-    source:
-      path: grafana
-      customValues: true
-      values: 
-        - values-local.yaml
+  # - name: grafana
+  #   project: monitoring
+  #   namespace: monitoring
+  #   source:
+  #     path: grafana
+  #     customValues: true
+  #     values: 
+  #       - values-local.yaml
   # - name: logstash
   #   project: monitoring
   #   namespace: monitoring
